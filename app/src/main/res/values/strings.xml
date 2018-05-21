@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Infinity Stone Quest</string>
+    <string name="get_infinity_stone">Get Infinity Stone</string>
+    <string name="resetButtonText">Reset</string>
+    <string name="stonesObtained_text">Infinity Stones obtained:</string>
+
+
+    <string name="preference_file_key">com.deltaappdev.inductions18.infinitystonequest.PREFERENCE_FILE_KEY</string>
+
+    <string name="saved_stone_count">com.deltaappdev.inductions18.infinitystonequest.saved_stone_count</string>
+    <string name="saved_stone_number">com.deltaappdev.inductions18.infinitystonequest.saved_stone_number</string>
+    <string name="saved_stone_numbers0">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers0</string>
+    <string name="saved_stone_numbers1">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers1</string>
+    <string name="saved_stone_numbers2">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers2</string>
+    <string name="saved_stone_numbers3">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers3</string>
+    <string name="saved_stone_numbers4">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers4</string>
+    <string name="saved_stone_numbers5">com.deltaappdev.inductions18.infinitystonequest.saved_stone_numbers5</string>
+
+
+</resources>

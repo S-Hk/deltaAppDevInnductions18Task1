@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="resetButtonBackground">#becc0000</color>
+    <color name="getButtonBackground">#baffcc00</color>
+
+    <color name="black">#000</color>
+
+    <color name="purple">#9800be</color>
+    <color name="blue">#00f</color>
+    <color name="green">#0f0</color>
+    <color name="red">#f00</color>
+    <color name="orange">#e38b18</color>
+    <color name="yellow">#ff0</color>
+    <color name="notificationColour">#FFFF00</color>
+
+</resources>

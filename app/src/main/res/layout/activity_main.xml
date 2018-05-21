@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--
+        android:background="@drawable/background_portrait"
+        -->
+
+
+        <TextView
+            android:id="@+id/textViewStoneObtained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/stonesObtained_text"
+            android:textColor="#ffffb3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/recycler_view"
+            android:layout_alignStart="@+id/textViewStoneObtained"
+            android:layout_marginBottom="-83dp"
+            android:textColor="#bef653"
+            android:textSize="13sp"
+            android:visibility="invisible"
+            android:text="Scroll to see obtained infinity stones:" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="260dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:background="#19101010"
+            android:contextClickable="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <ListView
+            android:id="@+id/stoneList"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_below="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:background="#0bffffff"
+            android:contextClickable="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="vertical"
+            android:visibility="invisible"/>
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textViewNotification"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewNotification"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="133dp"
+            android:text="Bla Bla Bla Bla"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/notificationColour"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/buttonGet"
+            android:layout_width="275dp"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="58dp"
+            android:background="@color/getButtonBackground"
+            android:text="@string/get_infinity_stone"
+            android:textColor="#550000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonGet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-56dp"
+            android:background="@color/resetButtonBackground"
+            android:text="@string/resetButtonText"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
