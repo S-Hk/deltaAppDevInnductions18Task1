@@ -1,5 +1,5 @@
 # deltaAppDevInnductions18Task1
-### Submittion of Task 1 for Delta App Dev Inductions 2018
+### Submission of Task 1 for Delta App Dev Inductions 2018
 
 (An App for Thanos!!!)
 
